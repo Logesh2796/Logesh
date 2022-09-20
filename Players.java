@@ -6,6 +6,7 @@ public class Players {
 	private int jerseyNo;
 	private int runs;
 	private String team;
+	private String coach;
 	
 	public void setName(String name) {
 		this.name=name;
@@ -36,6 +37,12 @@ public class Players {
 	}
 	public String getTeam() {
 		return team;
+	}
+	public void setCoach(String coach) {
+		this.coach=coach;
+	}
+	public String getCoach() {
+		return coach;
 	}
 	public Players(String name, int age, int jerseyNo, String team, int runs) {
 		this.name=name;
